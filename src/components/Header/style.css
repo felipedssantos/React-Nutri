@@ -1,0 +1,19 @@
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  width: 100%;
+  height: 60px;
+  background-color: #4c89e3;
+  color: #FFF;
+  margin-bottom: 30px;
+}
+header strong {
+  transition: all 300ms ease-in-out;
+}
+header strong:hover {
+  color: #DDD;
+  cursor: pointer;
+}
